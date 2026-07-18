@@ -1,0 +1,30 @@
+.container{
+    margin:0px;
+    border:0px;
+    box-sizing:border-box ;
+}   
+.container p{
+    background-color: aqua;
+    justify-content: center;
+}
+.container h2{
+    background-color: red;
+}
+.container h3{
+    background-color: yellow;
+}
+p{
+    background-color: white;
+
+}
+
+
+h1+p{
+    color: blue;
+}
+
+h2~p{
+    background-color: pink;
+}
+
+
